@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bootstrap cards</title>
+    <!-- Bootstrap card is a flexible and extensible contrnt container .it includes options for headers
+     and footers , a wide variety of content , contextual
+     background colors, and powerful display options .card replaces panel,well and thumbnail components 
+     in old  bootstrap3 version
+    
+    
+    creating a basic card:
+      the card markup is pretty straight forward .the outer wrapper requires the base class. card 
+    , whereas content can be placed inside the .card-body element-->
+    
+</head>
+<body>
+    <div class="card" style="width: 300px">
+        <img src="potti.jpg" class="card-img-top">
+        <div class="card-body text-center">
+            <h5 class="card-title">product 1</h5>
+            <p class="card-text"> here is the complete product1 information is given below.</p>
+            <a href="" class="btn btn-primary">more details</a>
+
+        </div>
+
+    </div>
+    <br>
+    <h4> card with titles,text and links</h4>
+    <div class="card-body">
+        <h5 class="card-title">product title</h5>
+        <h6 class="card-subtitle mb-3 text-muted"> this is the test information</h6>
+        <p class="card-text">here we are going to add the functions</p>
+        <a href="" class="card-link">view profile</a>
+        <a href="" class="card-link">Discover more</a>
+
+    </div>
+    <br>
+    <h4>create card with header and footer</h4>
+    <!-- you can also add header and footer within your cards using the.card-header and .card-footer class,
+    respectively-->
+    <div class="card text-center">
+        <h5 class="card-title">this is the hearder title</h5>
+        <p class="card-text">here we are adding some information in the body of the card,if want to add any 
+            data you can add it.</p>
+            <a href="" class="btn btn-primary">more details</a>
+            <div class="card-footer text-muted">3 years ago</div>
+            <h4>list group within cards</h4>
+            <div class="card" style="width : 300px;">
+                <div class="card-header">product 1</div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">product 1</li>
+                    <li class="list-group-item">product 2</li>
+                    <li class="list-group-item">product 3</li>
+                    <li class="list-group-item">product 4</li>
+                    <li class="list-group-item">product 5</li>
+                    </ul>
+                    <div class="" class="card-body">
+                        <a href="" class="card-link"> add more</a>
+                        <a href="" class="card-link">share</a>
+                    </div>
+                    <h4>customizing the card style</h4>
+                    <!-- there are several option available for customizing the cards background, borders and colors
+                    -->
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="card text-white bg-primary mb-4">
+                                <div class="card-body">
+                                    <h5 class="card-title">primary card title</h5>
+                                    <p class="card-text">some text here we can add in it</p>
+
+                                </div>
+                                <div class="col-6">
+                                    <div class="card text-white bg-danger mb-4">
+                                        <div class="card-body">
+                                            <h5 class="card-title">primary card title</h5>
+                                            <p class="card-text">some text here we can add in it</p>
+        
+              
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        
+
+    </div>
+    
+</body>
+</html>>
